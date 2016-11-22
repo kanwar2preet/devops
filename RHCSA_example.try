@@ -1,0 +1,8 @@
+RHCSA Level Objective List:::::
+
+
+
+1)  Configure VM to automatically boot at start of OS.
+2)  Make sure SELINUX is in enforcing Mode
+3)  Find all configuration files in /etc with .conf extension & save their file names in /tmp/con_files.txt
+4)  Install virtualisation software on the local system
