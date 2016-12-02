@@ -3,6 +3,27 @@ Docker by default runs on linux socket but can be made to run on networks also l
 
 docker ps -a # gives the docker container list even if they are not runnning
 
+dcoker run --cpu-shares=256
+
+
+dcoker run memory=1g
+
+docker run -d ubuntu:14.04.1 /bin/bash -c "ping 8.8.8.8"
+
+
+docker ps
+
+docker inspect id 
+
+docker attach id
+
+
+# Union mounts allow multiple fs to mount on top of each other but look, feel and smeel like regular filesystem,
+only the top layer in a container  is read and writable.
+
+
+
+
 
 
 
