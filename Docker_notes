@@ -1,0 +1,12 @@
+Docker by default runs on linux socket but can be made to run on networks also listening for requests.
+
+
+docker ps -a # gives the docker container list even if they are not runnning
+
+
+
+
+
+
+
+
