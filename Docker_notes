@@ -22,6 +22,10 @@ docker attach id
 only the top layer in a container  is read and writable.
 
 
+docker pull centos will pull centos image from official docker hub if the image is not there locally.
+
+
+
 
 
 
