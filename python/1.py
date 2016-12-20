@@ -1,3 +1,4 @@
+#check git ssh auth
 # This is the start of the python script for learning python and act as a document backup
 #! python
 # measure the length of the strings
