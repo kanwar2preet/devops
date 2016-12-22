@@ -14,3 +14,9 @@ seasonLength = input()
 print('game will be'+ str(int(seasonLength)+1) + 'in a year' )
 print("Functions are mini code in python")
 print("Values passed to the arguments are called functions")
+
+
+print("We can change data type using str and int function")
+print("int changes str to int and vice versa")
+
+print("input function always returns a string value")
