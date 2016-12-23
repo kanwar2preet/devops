@@ -29,3 +29,13 @@ x=8
 y=4
 
 print_max(x, y)
+######################################################
+#define a function to use a local variable
+
+a=5
+b=6
+def adding_numbers():
+    print(a+b)
+
+adding_numbers()
+print(a)
