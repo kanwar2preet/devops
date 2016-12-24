@@ -22,7 +22,20 @@ def key_arguments(a=4, b=6, c=9):
 key_arguments(2,4)
 key_arguments(1,3)
 key_arguments(1,1,1)
+###########################################
+###############return statement
 
+def maximum(x,y):
+    if x > y:
+        return x
+    elif  x == y:
+        return "numbers are equal"
+    else:
+        return y
+
+print(maximum(2,3))
+    
+    
     
     
     
