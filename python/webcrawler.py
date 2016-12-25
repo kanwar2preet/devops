@@ -1,3 +1,5 @@
+# This python program allows us to download image from website giving a random number as its name.
+
 import random
 import urllib.request
 
