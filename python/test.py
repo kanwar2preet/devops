@@ -6,6 +6,8 @@ print('Alice' + 'bob')
 
 
 ##Learning default Agruments in funtions
+#Python's default arguments are evaluated once when the function is defined, not each time the function is called.
+
 
 def function(message,times=1):
     print(message * times)
