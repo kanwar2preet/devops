@@ -8,5 +8,5 @@ import subprocess
 retcode = subprocess.call(['ls', '-l', '/home'])
 print( "returned", retcode)
 
-retcode = subprocess.call(['ls', '-l', '/home/kanwar'])
+retcode = subprocess.call(['ls', '-l', '/proc'])
 print ("returned", retcode)
