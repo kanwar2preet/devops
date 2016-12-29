@@ -1,1 +1,2 @@
-
+Everything in python is object and everything can have attributes adn methods. All fucntions have builtin attribute __doc__ which returns docstring defined in the functions source code.
+sys module is an object which has(among other things) an attribute called path
