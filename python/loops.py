@@ -27,10 +27,19 @@ while count <=5:
     
 #Note : Break is used to exit loop & continue is used to skip the current block.
 
-#C & D : Break and while:
+
+#C  Break example
+
 count = 0
 while count <= 10:
     print("trying to go to 10 starting from 0, current number is",count)
     count += 1
     if count >= 4:
         break
+ 
+#D : continue example: find prime numbers less than 10
+for numbers in range(10):
+    #checking if  number is even
+    if numbers % 2 == 0:
+        continue
+    print("prime number is",numbers)  
