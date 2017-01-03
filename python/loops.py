@@ -13,6 +13,11 @@ for n in range(8):
 #A3: for with range    
 for n in range(3,5):
     print("ranges are",n)
+    
+#A4: Measure the length of the strings:
+games = ['pop','cricket','world of warcraft']
+for game in games:
+    print(game,len(game))    
 
 #B1 : Whille loop
 count = 0
