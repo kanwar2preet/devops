@@ -20,3 +20,12 @@ while count <=5:
     print("going from 0 to 5,number is",count)
     count += 1
     
+#Note : Break is used to exit loop & continue is used to skip the current block.
+
+#C & D : Break and while:
+count = 0
+while count <= 10:
+    print("trying to go to 10 starting from 0, current number is",count)
+    count += 1
+    if count >= 4:
+        break
