@@ -9,7 +9,7 @@ print('Updating a dictionary')
 print("value of game one",dict['game1'])
 
 print("Value of game2",dict['game2'])
-
 dict['game2'] = "not playing" #updating dict value
 print("value of game2","dict['game2'])
 
+#deleting dictonary elements
