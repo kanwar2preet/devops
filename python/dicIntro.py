@@ -2,7 +2,7 @@
 print("this script will show the use of dict in python")
 dict = {'game1':'red5','game2':'mw','game3':'csgo','game4':'pop'}
 print(dict['game1'])
-#Updating a dictinory
+#creating a new dict and then adding in values
 
 games = {}
 games['fps'] = 'csgo'
