@@ -4,6 +4,13 @@ dict = {'game1':'red5','game2':'mw','game3':'csgo','game4':'pop'}
 print(dict['game1'])
 #Updating a dictinory
 
+games = {}
+games['fps'] = 'csgo'
+games['racing'] ='nfsmw'
+games['horror'] = 'evil within'
+print(games)
+
+
 print('Updating a dictionary')
 #updating value of game two in dict
 print("value of game one",dict['game1'])
