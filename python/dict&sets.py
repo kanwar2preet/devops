@@ -31,4 +31,20 @@ mybio = {'name' : 'vinty', 'game': 'csgo', 'rank':'silver'}
 print(mybio)
 print("usually the thing that comes in handy to check if there exist any key in dictionary")
 print(mybio.has_key('game'),"True means has key and vice versa")
-
+print("\n: to get keys & values from Dictionaries, use .keys() and .values()")
+print("\nkeys in mybio are ",mybio.keys())
+print("\nvalues in mybio are ",mybio.values ())
+print("\nto get tuples,use  .items()")
+print("tuples in mybio are", mybio.items())
+print("\n to get particular value from sets use .get(key)")
+print("the game i play",mybio.get('game'))
+mybio['location'] = 'sf'
+print("\n\n\n\nappending in the dictionary")
+print(mybio)
+print("\n\n deleting key-value pair from Dictionaries-use del dict['key']")
+del mybio['game']
+print(mybio)
+print("\n\n\n:to delete whole dictionary use dictionary use dict.clear()")
+mybio.clear()
+print(mybio)
+print("\n\n\nuse dir() call to check the list to attributes from the interpreter." )
