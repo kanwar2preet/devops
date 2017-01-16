@@ -48,3 +48,35 @@ print("\n\n\n:to delete whole dictionary use dictionary use dict.clear()")
 mybio.clear()
 print(mybio)
 print("\n\n\nuse dir() call to check the list to attributes from the interpreter." )
+print("your name is " + name)
+
+if name == "one":
+	print("you are one")
+	print("you are admin")
+elif name == "game":
+	print("playing csgo")
+	print("best game")
+else:
+	print("i dont know you")
+	
+
+
+#stuying while loop
+#  while statement_is_true:
+#      do stuff
+game_rank =20 
+
+while game_rank > 10:
+	game_rank = int(input("enter rank in your favourite game"))
+	if game_rank > 10:
+		print("you are doing good")
+	else:
+		print("need to learn game")
+	 
+	
+#for loops in python
+names =['csgo','pop','nfsmw','hotpersuit']
+for name in names:
+	print(name)
+	
+	
