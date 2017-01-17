@@ -1,5 +1,5 @@
 #! /usr/local/bin/python3
-print("/n/n this program acts as a cat utility")
+print("/n/n this program acts as a cat utility, it will read the file and print it line by line")
 import sys
 
 
